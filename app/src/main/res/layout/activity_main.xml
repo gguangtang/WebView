@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    tools:context="com.ggt.webview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_bg"
+            android:hint="请输入您的网址，如:www.baidu.com"
+            android:imeActionLabel="搜索"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sreach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        android:text="搜索"
+        android:textSize="16sp"/>
+
+</LinearLayout>
